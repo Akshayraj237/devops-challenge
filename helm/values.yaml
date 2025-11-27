@@ -1,0 +1,11 @@
+replicaCount: 1
+
+image:
+  repository: devops-challenge-app
+  tag: local
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 80
+
